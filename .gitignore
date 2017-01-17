@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>cafe mashed up | about</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link href="styleabout.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- js -->
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 	
+<script type="text/javascript" src="jquery.inview.js"></script>
+    
+ 
+</head>
+
+
+<body>
+     
+<!--▼▼▼wrap開始▼▼▼-->
+<div id="wrap">
+
+<div id="header">
+ 
+<div class="logo">
+  <div align="center"><a href="index.html"><img src="images/logo3.png"　 alt="ロゴ"/></a></div>
+</div>
+
+
+
+
+
+
+<div class="head_menu">
+<ul>
+  <li><a href="menu/menu.html">MENU</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="http://ameblo.jp/mashedup/">BLOG</a></li>
+ <li><a href="access/access.html">ACCESS</a></li>
+ <li><a href="contact/contact.html">CONTACT</a></li>
+</ul>
+</div>
+
+
+<!--▲▲▲header閉じ▲▲▲-->
+<!--▲▲▲
+<div id="sp">
+<div class="logo">
+  <div align="center"><a href="index.html"><img src="images/logo.png"　width="250" height="47" alt="ロゴ"/></a></div>
+</div>    
+<ul>
+  
+  <li><a href="#">MENU</a></li>
+  <li><a href="#">ABOUT</a></li>
+  <li><a href="#">BLOG</a></li>
+ <li><a href="#">ACCESS</a></li>
+ <li><a href="#">CONTACT</a></li>
+</ul>
+
+▲▲▲-->
+
+    </div><!--▲▲▲sp閉じ▲▲▲-->
+
+
+
+
+<!--▲▲▲
+<div id="test">
+<div class="myvision">
+  <p>はじめまして、</p></br>
+  <p>2015年7月4日、大阪市中央区博労町に</p></br>
+  <p>cafe mashed upがオープン致しました。</p></br>
+  <p>マッシュポテトを中心に</p></br>
+  <p>様々な料理を提供致します。</p></br></br>
+  <p>夜はお酒だけでなく</p></br>
+  <p>おいしいカフェドリンクのご用意もございますので</p></br>
+  <p>お一人様でも気軽にお立ち寄りください。</p></br>
+  <p>お待ちしております。</p></br>
+  
+</div>
+</div>
+
+<div class="retop"><img src="images/coffee2.jpg" width="100" height="100"　alt="コーヒー"></div>
+▲▲▲-->
+
+
+
+
+
+<div id="test">
+
+   <div class="box">
+<p class="inviewfadeInUp"><img src="images/concept1.png" 　></p>
+       <p class="inviewfadeInUp"><img src="images/cafepic.png" width="462" height="280"　></p>
+<p class="inviewfadeInUp"><img src="images/concept2.png" 　></p>
+<p class="inviewfadeInUp"><img src="images/concept3.png" 　></p></br>
+<p class="inviewfadeInUp"><img src="images/concept4.png"></p>
+<p class="inviewfadeInUp"><img src="images/concept5.png"　></p>
+<p class="inviewfadeInUp"><img src="images/concept6.png"　></p>
+<p class="inviewfadeInUp"><img src="images/concept7.png"　></p>
+
+          
+  
+  
+</div>
+
+
+<div id="footer">
+<hr>
+<p>Copyright©cafe mashedup allrights reeserved</p>
+
+</div><!--▲▲▲footer閉じ▲▲▲-->
+
+<script>
+ $(function() {
+     $('.inviewfadeInUp').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+            if (isInView) {
+                $(this).stop().addClass('fadeInUp');
+            } else {
+                $(this).stop().removeClass('fadeInUp');
+            }
+        });
+   });
+  
+</script>
+
+</div>
+<!--▲▲▲wrap閉じ▲▲▲-->
+
+
+</body>
+</html>
